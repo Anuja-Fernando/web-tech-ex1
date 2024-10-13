@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        
+        <label for="dob">Date of birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender1" name="gender" value="female" required>
+        <label for="gender1">Female</label>
+        <input type="radio" id="gender2" name="gender" value="male" required>
+        <label for="gender2">Male</label><br>
+        
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="medicalHistory">Medical History:</label><br>
+        <textarea id="medicalHistory" name="medicalHistory" rows="4" cols="50" placeholder="Enter medical history here..." required></textarea><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
