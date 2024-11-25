@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital>
+    <patients>
+        <patient>
+            <id>1</id>
+            <name>John Doe</name>
+            <age>35</age>
+            <gender>Male</gender>
+            <contact>1234567890</contact>
+            <address>123 Main Street</address>
+        </patient>
+        <patient>
+            <id>2</id>
+            <name>Jane Smith</name>
+            <age>28</age>
+            <gender>Female</gender>
+            <contact>9876543210</contact>
+            <address>456 Elm Street</address>
+        </patient>
+    </patients>
+</hospital>
