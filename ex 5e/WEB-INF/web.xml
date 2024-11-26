@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>PageCounterServlet</servlet-name>
+        <servlet-class>PageCounterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PageCounterServlet</servlet-name>
+        <url-pattern>/counter</url-pattern>
+    </servlet-mapping>
+</web-app>
