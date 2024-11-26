@@ -1,0 +1,46 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>HttpSessionExample</servlet-name>
+        <servlet-class>HttpSessionExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HttpSessionExample</servlet-name>
+        <url-pattern>/httpSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CookieExample</servlet-name>
+        <servlet-class>CookieExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieExample</servlet-name>
+        <url-pattern>/cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>URLRewritingExample</servlet-name>
+        <servlet-class>URLRewritingExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>URLRewritingExample</servlet-name>
+        <url-pattern>/urlRewriting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HiddenFormFieldExample</servlet-name>
+        <servlet-class>HiddenFormFieldExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HiddenFormFieldExample</servlet-name>
+        <url-pattern>/hiddenForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DataRetrievalExample</servlet-name>
+        <servlet-class>DataRetrievalExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DataRetrievalExample</servlet-name>
+        <url-pattern>/dataRetrieval</url-pattern>
+    </servlet-mapping>
+</web-app>
